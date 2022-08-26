@@ -1,0 +1,38 @@
+.Main {
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  font-style: italic;
+  display: flex;
+  position: relative;
+  margin: 20px auto 0 auto;
+  border: solid transparent;
+  width: 1500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  padding-right: 120px;
+  text-shadow: 2px 2px black;
+}
+.Main-Heading {
+  font-size: 110px;
+  text-shadow: 2px 4px black;
+}
+.Main-button {
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 35px;
+  border: double;
+  border-width: 10px;
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+.Main-button:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}

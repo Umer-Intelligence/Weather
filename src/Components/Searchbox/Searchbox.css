@@ -1,0 +1,14 @@
+.Search input {
+  margin: auto;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: transparent;
+  color: #f8f8f8;
+}
+@media only screen and (max-width: 600px) {
+  .Search input {
+    font-size: 1rem;
+  }
+}

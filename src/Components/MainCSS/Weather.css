@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+body {
+  background-image: url("https://i.pinimg.com/originals/06/3d/46/063d46befe8ef0456347e6e3ef256fb7.gif");
+  background-size: 100% 110%;
+  background-attachment: fixed;
+}
+.heading {
+  color: white;
+  font-style: italic;
+  font-size: 29px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 2px 2px black;
+}
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 10px;
+  }
+}
+
+.Link {
+  font-size: 20px;
+  text-align: right;
+}
+.Readme-container {
+  flex-wrap: wrap;
+  /* border: solid transparent; */
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 300px) {
+  .Readme-container {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Readme-container {
+    width: 500px;
+  }
+}
+.container {
+  margin: auto;
+  display: flex;
+  border: solid transparent;
+  justify-content: space-around;
+  width: 300px;
+  height: 242px;
+  align-items: flex-end;
+}
+.container-1 {
+  margin: auto;
+  display: flex;
+  border: solid transparent;
+  width: 670px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media only screen and (max-width: 400px) {
+  .container-1 {
+    width: 500px;
+  }
+}
+.container-2 {
+  margin: auto;
+  display: flex;
+  border: solid black;
+  width: 580px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.item {
+  color: white;
+  font-size: 35px;
+}
+@media only screen and (max-width: 300px) {
+  .item {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .item {
+    font-size: 25px;
+  }
+}
+.item-1 {
+  color: white;
+  font-size: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+.button {
+  background-color: transparent;
+  color: white;
+  border: solid white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 1px 1px black;
+}
+.button:hover {
+  background-color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .button {
+    font-size: 14px;
+  }
+}
+.Readme-heading {
+  text-align: center;
+  color: white;
+  font-size: 97px;
+  text-shadow: 2px 2px black;
+}
+.Readme-content {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 37px;
+  text-shadow: 2px 2px black;
+}
+@media only screen and (max-width: 700px) {
+  .Readme-content {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Readme-content {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Readme-heading {
+    margin-left: 100px;
+  }
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
